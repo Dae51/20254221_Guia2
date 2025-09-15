@@ -1,0 +1,43 @@
+        body {
+            font-family: Arial, sans-serif;
+            background: #f4f4f9;
+            margin: 0;
+            padding: 0;
+            text-align: center;
+        }
+
+        /* Título sin fondo */
+        header {
+            color: #333;
+            padding: 20px;
+            font-size: 1.8em;
+        }
+
+        /* Contenedor del menú con fondo */
+        .menu {
+            background: #333;
+            padding: 20px;
+            display: flex;
+            justify-content: center;
+            gap: 15px;
+            flex-wrap: wrap;
+        }
+
+        .menu a {
+            text-decoration: none;
+        }
+
+        .menu button {
+            background: #007BFF;
+            color: white;
+            border: none;
+            padding: 12px 20px;
+            font-size: 1em;
+            border-radius: 8px;
+            cursor: pointer;
+            transition: 0.3s;
+        }
+
+        .menu button:hover {
+            background: #0056b3;
+        }
